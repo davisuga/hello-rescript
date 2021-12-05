@@ -1,0 +1,24 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "rescript-express",
+    "@ryyppy/rescript-promise",
+    "bs-axios"
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "gentypeconfig": {
+    "language": "typescript"
+  }
+}
